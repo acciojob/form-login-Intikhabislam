@@ -1,6 +1,6 @@
 function getFormvalue() {
-	let first=document.getElementsByClassName("fname");
-	let last=document.getElementsByClassName("lname");
+	let first=document.getElementById("fname").value;
+	let last=document.getElementById("lname").value;
     //Write your code here
- alert(hi);
+    alert(first+" "+last);
 }
